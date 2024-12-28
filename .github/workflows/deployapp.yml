@@ -1,0 +1,27 @@
+name: build and deploy blackfois app
+
+on:
+  push:
+    branches:
+      - master
+
+jobs: 
+  deploy:
+    runs-on: self-hosted
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: upload to server
+      run: |
+
+    runs-on: self-hosted
+    needs: build  # Waits for build to finish
+    steps:
+    - name: Deploy
+      run: |
+        sudo rm -rf /var/www/html/*
+        sudo cp -r . /var/www/html/
+        sudo chown -R www-data:www-data /var/www/html
+
+        sudo chmod -R 755 /var/www/html

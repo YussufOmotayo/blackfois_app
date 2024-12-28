@@ -1,0 +1,186 @@
+*{
+ margin: 0;
+ padding:0;
+}
+
+body{
+  background-image: url('CGM2.jpg');
+    padding-top: 10vh;
+}
+.form-container{
+    width: 310px;
+    height: 360;
+    padding: 30px 70px;
+    background-color: white ;
+    border-radius: 10px;
+    box-shadow: 0 0 0px 0 #000 ;
+   margin :auto ;
+ background-position: relative ;
+}
+.user-img{
+    background: url('') no-repeat;
+    width: 70px;
+    height: 70px;
+    background-size: 100%;
+    position: absolute;
+    top: -50px;
+    left:110px;
+
+}
+ul.list li h2{
+text-align: center;
+margin-right: -80px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+ul.list{
+    list-style-type: none;
+    text-align: center;
+  
+
+}
+ul.list li label{
+    text-align: left;
+    margin-right: 150;
+    margin-left:-30px;
+    font-family:'Trebuchet MS';
+}
+ul.list li{
+    width: 250px;
+    margin-bottom: 15px;
+    margin-top:30px;
+
+    
+    
+    
+}
+ul.list li p{
+    text-decoration: none;
+}
+ul.list li a{
+    text-decoration: none;
+    margin-bottom:50px;
+    color: black;
+    text-align: left;
+
+}
+ul.list li input{
+    width: 350px;
+    height: 45px;
+   margin-left: -19px;
+   margin-top: 3px;
+   top: 10px;
+    text-align: left;
+    padding: 20px 3px;
+    border: none;
+    background-color:white;
+    border-radius: 5px;
+
+    font-family:'Trebuchet MS';
+    
+}
+ul.list li input[type="button"]{
+    background-color: blue;
+    color: #fff;
+    width: 160px;
+    border-radius:55px;
+    margin-top:10px;
+    margin-left: 120px;
+    padding: 8px;
+    border: 0;
+    padding: 10px;
+    text-align:center ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+ul.list.li:nth-child(5){
+    color:red;
+}
+/*sign up*/
+.sign-up.body{
+    background-image: url('11.jpg');
+    padding-top: 10vh;
+}
+
+.sign-up{
+    width: 310px;
+    height: 650px;
+    padding: 30px 70px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0 0px 0 #000 ;
+   margin :auto ;
+ background-position: relative ;
+
+
+}
+.sign-up ul.list li h2{
+    text-align: center;
+    margin-right: -70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       
+    }
+    .sign-up ul.list{
+        list-style-type: none;
+        text-align: center;
+
+    }
+
+.sign-up ul.list li label{
+    text-align: left;
+    margin-right: 150;
+    margin-left:-55px;
+    font-family:'Trebuchet MS';
+}
+
+.sign-up ul.list li{
+    width: 250px;
+    margin-bottom: 15px;
+    margin-top:30px;
+    
+    
+    
+    
+}
+.sign-up ul.list li p{
+    text-decoration: none;
+}
+.sign-up .list li a{
+    text-decoration: none;
+    margin-bottom:50px;
+    color: black;
+    text-align: left;
+
+}
+.sign-up ul.list li input{
+    width: 350px;
+    height: 45px;
+   margin-left: -19px;
+   margin-top: 3px;
+   top: 10px;
+    text-align: left;
+    padding: 20px 3px;
+    border: none;
+    background-color:white;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-family:'Trebuchet MS';
+    
+}
+.sign-up ul.list li input[type="button"]{
+    background-color:yellowgreen;
+        color: #fff;
+    width: 160px;
+    border-radius:55px;
+    margin-top:25px;
+    margin-left: 45px;
+    padding: 8px;
+    border: 0;
+    padding: 10px;
+    text-align:center ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+ul.list.li:nth-child(5){
+    color:red;
+}
